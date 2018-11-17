@@ -342,7 +342,7 @@ def handle_photo():
     tmp = bubbleYear(list_info)
     bubble(tmp)
     final_dict = {"list": list_info}
-    with open("../blog_src/source/photos/data.json","w") as fp:
+    with open("../../Myhexo/source/photos/data.json","w") as fp:
         json.dump(final_dict, fp)
 
 def cut_photo():
